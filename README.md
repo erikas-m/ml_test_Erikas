@@ -19,6 +19,7 @@ Issue creation:
 
 
 Issue retrieval:
+
                     */web/{owner}/{repo}/find       - search for issues dialog
 
                     */web/{owner}/{repo}/findAll    - lists all repository issues
