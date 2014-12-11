@@ -1,0 +1,29 @@
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap-compass";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+.content {
+  margin-top: 70px;
+}
+.row {
+  background-color: #f9f9f9;
+  border: 1px solid #f3f3f3;
+  padding: 20px 20px 5px 20px;
+}
+#form-search{
+  margin-top: 180px;
+}
+.align-center{
+  margin: 0 auto;
+}
+.btn-wide {
+  width: 100%;
+}
+.form-container, .text-center {
+  text-align: center;
+}
+.user-select, #form-search, .state-select {
+  max-width: 270px;
+}
+.half-wide {
+  width: 50%;
+  min-width: 200px;
+}
