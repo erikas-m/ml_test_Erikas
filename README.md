@@ -13,15 +13,21 @@ To check out how this application works, check out demo version on */web route.
 2) CRUD routes and usage
 -------------------------------------
 
-Issue creation:     */web/{owner}/{repo}/create
+Issue creation:
 
-Issue retrieval:    */web/{owner}/{repo}/find       - search for issues dialog
+                    */web/{owner}/{repo}/create
+
+
+Issue retrieval:
+                    */web/{owner}/{repo}/find       - search for issues dialog
 
                     */web/{owner}/{repo}/findAll    - lists all repository issues
 
                     */web/{owner}/{repo}/show/{num} - shows concrete issue
 
-Issue update:       */web/{owner}/{repo}/edit/{num} - issue edition dialog
+Issue update:
+
+                    */web/{owner}/{repo}/edit/{num} - issue edition dialog
 
 Issue deletion is not available on Github. Closing issues possible through update route.
 
